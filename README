@@ -1,0 +1,24 @@
+# Java Project: Person Interface Implementation
+
+This project demonstrates using an interface in Java with implementations in the `Student` and `Employee` classes. Each class implements the `Person` interface and includes unique attributes and methods.
+
+## Project Structure
+
+- **Person.java**: Interface with the method `void getInfo()`, implemented by both the `Student` and `Employee` classes.
+
+- **Student.java**: `Student` class implementing the `Person` interface, with attributes `studentID`, `name`, `surname`, and `age`. Contains a constructor for attribute initialization and a `getInfo()` method to display student details.
+
+- **Employee.java**: `Employee` class implementing the `Person` interface, with attributes `name`, `surname`, and `age`. Includes a constructor, a method to calculate years until retirement (assuming retirement age is 65), and a `getInfo()` method to display employee details.
+
+- **Main.java**: Main class for testing. Creates instances of `Student` and `Employee` and calls `getInfo()` on each to display their information.
+
+## Instructions to Run
+
+1. Ensure JDK (Java Development Kit) is installed.
+2. Create a project in a Java IDE (e.g., IntelliJ IDEA, Eclipse) or use the command line.
+3. Copy each code snippet into its own `.java` file with the corresponding names specified above.
+4. Compile and run the project with the following commands:
+
+   ```bash
+   javac Person.java Student.java Employee.java Main.java
+   java Main
